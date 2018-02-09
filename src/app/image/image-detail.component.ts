@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ImageDetailComponent implements OnInit {
 
-  image: any;
+  image: any = 'assets/img/loading.jpeg';
 
   constructor(private imageService: ImageService, private route: ActivatedRoute) { 
 
